@@ -13,7 +13,6 @@
 		4EDBBC7518DC05780090399D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EDBBC7318DC05780090399D /* InfoPlist.strings */; };
 		4EDBBC7718DC05780090399D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBC7618DC05780090399D /* main.m */; };
 		4EDBBC7B18DC05780090399D /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBC7A18DC05780090399D /* KSAppDelegate.m */; };
-		4EDBBC7E18DC05780090399D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDBBC7C18DC05780090399D /* Main.storyboard */; };
 		4EDBBC8118DC05780090399D /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBC8018DC05780090399D /* KSViewController.m */; };
 		4EDBBC8318DC05780090399D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDBBC8218DC05780090399D /* Images.xcassets */; };
 		4EDBBC8A18DC05780090399D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDBBC8918DC05780090399D /* XCTest.framework */; };
@@ -21,6 +20,14 @@
 		4EDBBC8C18DC05780090399D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDBBC6E18DC05780090399D /* UIKit.framework */; };
 		4EDBBC9418DC05780090399D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EDBBC9218DC05780090399D /* InfoPlist.strings */; };
 		4EDBBC9618DC05780090399D /* ParallaxDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBC9518DC05780090399D /* ParallaxDemoTests.m */; };
+		4EDBBCA118DC078A0090399D /* KSFadingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBCA018DC078A0090399D /* KSFadingScrollView.m */; };
+		4EDBBCA518DC0BE70090399D /* KSParallaxBlurHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBCA418DC0BE70090399D /* KSParallaxBlurHeaderView.m */; };
+		4EDBBCA818DC12990090399D /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBCA718DC12990090399D /* UIImage+Blur.m */; };
+		4EDBBCAB18DC13A90090399D /* KSParallaxBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBCAA18DC13A90090399D /* KSParallaxBlurView.m */; };
+		4EDBBCB018DC1FE50090399D /* KSParallaxItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBCAF18DC1FE50090399D /* KSParallaxItemViewController.m */; };
+		4EDBBCB318DC20D70090399D /* Flower.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBCB218DC20D70090399D /* Flower.m */; };
+		4EDBBCB618DC24520090399D /* KSPagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBCB518DC24520090399D /* KSPagingViewController.m */; };
+		4EDBBCB818DC2ED10090399D /* Daffodils.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EDBBCB718DC2ED10090399D /* Daffodils.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +51,6 @@
 		4EDBBC7818DC05780090399D /* ParallaxDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParallaxDemo-Prefix.pch"; sourceTree = "<group>"; };
 		4EDBBC7918DC05780090399D /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
 		4EDBBC7A18DC05780090399D /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
-		4EDBBC7D18DC05780090399D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EDBBC7F18DC05780090399D /* KSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
 		4EDBBC8018DC05780090399D /* KSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
 		4EDBBC8218DC05780090399D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +59,21 @@
 		4EDBBC9118DC05780090399D /* ParallaxDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParallaxDemoTests-Info.plist"; sourceTree = "<group>"; };
 		4EDBBC9318DC05780090399D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4EDBBC9518DC05780090399D /* ParallaxDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParallaxDemoTests.m; sourceTree = "<group>"; };
+		4EDBBC9F18DC078A0090399D /* KSFadingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSFadingScrollView.h; path = KSParallax/KSFadingScrollView.h; sourceTree = "<group>"; };
+		4EDBBCA018DC078A0090399D /* KSFadingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSFadingScrollView.m; path = KSParallax/KSFadingScrollView.m; sourceTree = "<group>"; };
+		4EDBBCA318DC0BE70090399D /* KSParallaxBlurHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSParallaxBlurHeaderView.h; path = KSParallax/KSParallaxBlurHeaderView.h; sourceTree = "<group>"; };
+		4EDBBCA418DC0BE70090399D /* KSParallaxBlurHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSParallaxBlurHeaderView.m; path = KSParallax/KSParallaxBlurHeaderView.m; sourceTree = "<group>"; };
+		4EDBBCA618DC12990090399D /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		4EDBBCA718DC12990090399D /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		4EDBBCA918DC13A90090399D /* KSParallaxBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSParallaxBlurView.h; path = KSParallax/KSParallaxBlurView.h; sourceTree = "<group>"; };
+		4EDBBCAA18DC13A90090399D /* KSParallaxBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSParallaxBlurView.m; path = KSParallax/KSParallaxBlurView.m; sourceTree = "<group>"; };
+		4EDBBCAE18DC1FE50090399D /* KSParallaxItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSParallaxItemViewController.h; path = KSParallax/KSParallaxItemViewController.h; sourceTree = "<group>"; };
+		4EDBBCAF18DC1FE50090399D /* KSParallaxItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSParallaxItemViewController.m; path = KSParallax/KSParallaxItemViewController.m; sourceTree = "<group>"; };
+		4EDBBCB118DC20D70090399D /* Flower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flower.h; sourceTree = "<group>"; };
+		4EDBBCB218DC20D70090399D /* Flower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flower.m; sourceTree = "<group>"; };
+		4EDBBCB418DC24520090399D /* KSPagingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSPagingViewController.h; path = KSParallax/KSPagingViewController.h; sourceTree = "<group>"; };
+		4EDBBCB518DC24520090399D /* KSPagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSPagingViewController.m; path = KSParallax/KSPagingViewController.m; sourceTree = "<group>"; };
+		4EDBBCB718DC2ED10090399D /* Daffodils.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Daffodils.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +135,12 @@
 			children = (
 				4EDBBC7918DC05780090399D /* KSAppDelegate.h */,
 				4EDBBC7A18DC05780090399D /* KSAppDelegate.m */,
-				4EDBBC7C18DC05780090399D /* Main.storyboard */,
 				4EDBBC7F18DC05780090399D /* KSViewController.h */,
 				4EDBBC8018DC05780090399D /* KSViewController.m */,
+				4EDBBCB118DC20D70090399D /* Flower.h */,
+				4EDBBCB218DC20D70090399D /* Flower.m */,
+				4EDBBCB718DC2ED10090399D /* Daffodils.jpg */,
+				4EDBBCA218DC07C80090399D /* KSParallax */,
 				4EDBBC8218DC05780090399D /* Images.xcassets */,
 				4EDBBC7118DC05780090399D /* Supporting Files */,
 			);
@@ -150,6 +174,41 @@
 				4EDBBC9218DC05780090399D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EDBBCA218DC07C80090399D /* KSParallax */ = {
+			isa = PBXGroup;
+			children = (
+				4EDBBCA618DC12990090399D /* UIImage+Blur.h */,
+				4EDBBCA718DC12990090399D /* UIImage+Blur.m */,
+				4EDBBCAD18DC1FC90090399D /* Controllers */,
+				4EDBBCAC18DC1FBF0090399D /* Views */,
+			);
+			name = KSParallax;
+			sourceTree = "<group>";
+		};
+		4EDBBCAC18DC1FBF0090399D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4EDBBC9F18DC078A0090399D /* KSFadingScrollView.h */,
+				4EDBBCA018DC078A0090399D /* KSFadingScrollView.m */,
+				4EDBBCA318DC0BE70090399D /* KSParallaxBlurHeaderView.h */,
+				4EDBBCA418DC0BE70090399D /* KSParallaxBlurHeaderView.m */,
+				4EDBBCA918DC13A90090399D /* KSParallaxBlurView.h */,
+				4EDBBCAA18DC13A90090399D /* KSParallaxBlurView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4EDBBCAD18DC1FC90090399D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EDBBCAE18DC1FE50090399D /* KSParallaxItemViewController.h */,
+				4EDBBCAF18DC1FE50090399D /* KSParallaxItemViewController.m */,
+				4EDBBCB418DC24520090399D /* KSPagingViewController.h */,
+				4EDBBCB518DC24520090399D /* KSPagingViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +259,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "kronositi inc.";
 				TargetAttributes = {
+					4EDBBC6618DC05780090399D = {
+						DevelopmentTeam = 9UP82APHXK;
+					};
 					4EDBBC8718DC05780090399D = {
 						TestTargetID = 4EDBBC6618DC05780090399D;
 					};
@@ -230,8 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EDBBC8318DC05780090399D /* Images.xcassets in Resources */,
+				4EDBBCB818DC2ED10090399D /* Daffodils.jpg in Resources */,
 				4EDBBC7518DC05780090399D /* InfoPlist.strings in Resources */,
-				4EDBBC7E18DC05780090399D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EDBBCB618DC24520090399D /* KSPagingViewController.m in Sources */,
+				4EDBBCA818DC12990090399D /* UIImage+Blur.m in Sources */,
+				4EDBBCA518DC0BE70090399D /* KSParallaxBlurHeaderView.m in Sources */,
+				4EDBBCB018DC1FE50090399D /* KSParallaxItemViewController.m in Sources */,
+				4EDBBCA118DC078A0090399D /* KSFadingScrollView.m in Sources */,
 				4EDBBC8118DC05780090399D /* KSViewController.m in Sources */,
+				4EDBBCAB18DC13A90090399D /* KSParallaxBlurView.m in Sources */,
 				4EDBBC7B18DC05780090399D /* KSAppDelegate.m in Sources */,
+				4EDBBCB318DC20D70090399D /* Flower.m in Sources */,
 				4EDBBC7718DC05780090399D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,14 +350,6 @@
 				4EDBBC7418DC05780090399D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4EDBBC7C18DC05780090399D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4EDBBC7D18DC05780090399D /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		4EDBBC9218DC05780090399D /* InfoPlist.strings */ = {
@@ -377,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParallaxDemo/ParallaxDemo-Prefix.pch";
 				INFOPLIST_FILE = "ParallaxDemo/ParallaxDemo-Info.plist";
@@ -390,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParallaxDemo/ParallaxDemo-Prefix.pch";
 				INFOPLIST_FILE = "ParallaxDemo/ParallaxDemo-Info.plist";

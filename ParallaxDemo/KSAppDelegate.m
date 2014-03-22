@@ -7,12 +7,18 @@
 //
 
 #import "KSAppDelegate.h"
+#import "KSPagingViewController.h"
 
 @implementation KSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    KSPagingViewController *vc = [[KSPagingViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc]  initWithRootViewController:vc];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							
