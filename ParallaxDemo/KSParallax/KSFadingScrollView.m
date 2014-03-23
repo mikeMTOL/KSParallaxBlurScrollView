@@ -39,7 +39,7 @@
     
     // Add the mask.
     [maskLayer addSublayer:gradientLayer];
-//    self.layer.mask = maskLayer;
+    self.layer.mask = maskLayer;
 }
 /*
 // Only override drawRect: if you perform custom drawing.

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3500D08D405447C6B52C38BC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBCFCCF665142ACAB326A7B /* libPods.a */; };
+		4E7EBB7418DE7EA2007DF0DD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4E7EBB7318DE7EA2007DF0DD /* Podfile */; };
 		4EDBBC6B18DC05780090399D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDBBC6A18DC05780090399D /* Foundation.framework */; };
 		4EDBBC6D18DC05780090399D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDBBC6C18DC05780090399D /* CoreGraphics.framework */; };
 		4EDBBC6F18DC05780090399D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDBBC6E18DC05780090399D /* UIKit.framework */; };
@@ -21,7 +23,6 @@
 		4EDBBC9418DC05780090399D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EDBBC9218DC05780090399D /* InfoPlist.strings */; };
 		4EDBBC9618DC05780090399D /* ParallaxDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBC9518DC05780090399D /* ParallaxDemoTests.m */; };
 		4EDBBCA118DC078A0090399D /* KSFadingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBCA018DC078A0090399D /* KSFadingScrollView.m */; };
-		4EDBBCA518DC0BE70090399D /* KSParallaxBlurHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBCA418DC0BE70090399D /* KSParallaxBlurHeaderView.m */; };
 		4EDBBCA818DC12990090399D /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBCA718DC12990090399D /* UIImage+Blur.m */; };
 		4EDBBCAB18DC13A90090399D /* KSParallaxBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBCAA18DC13A90090399D /* KSParallaxBlurView.m */; };
 		4EDBBCB018DC1FE50090399D /* KSParallaxItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBBCAF18DC1FE50090399D /* KSParallaxItemViewController.m */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E7EBB7318DE7EA2007DF0DD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
 		4EDBBC6718DC05780090399D /* ParallaxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDBBC6A18DC05780090399D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4EDBBC6C18DC05780090399D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,8 +63,6 @@
 		4EDBBC9518DC05780090399D /* ParallaxDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParallaxDemoTests.m; sourceTree = "<group>"; };
 		4EDBBC9F18DC078A0090399D /* KSFadingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSFadingScrollView.h; path = KSParallax/KSFadingScrollView.h; sourceTree = "<group>"; };
 		4EDBBCA018DC078A0090399D /* KSFadingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSFadingScrollView.m; path = KSParallax/KSFadingScrollView.m; sourceTree = "<group>"; };
-		4EDBBCA318DC0BE70090399D /* KSParallaxBlurHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSParallaxBlurHeaderView.h; path = KSParallax/KSParallaxBlurHeaderView.h; sourceTree = "<group>"; };
-		4EDBBCA418DC0BE70090399D /* KSParallaxBlurHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSParallaxBlurHeaderView.m; path = KSParallax/KSParallaxBlurHeaderView.m; sourceTree = "<group>"; };
 		4EDBBCA618DC12990090399D /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
 		4EDBBCA718DC12990090399D /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
 		4EDBBCA918DC13A90090399D /* KSParallaxBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSParallaxBlurView.h; path = KSParallax/KSParallaxBlurView.h; sourceTree = "<group>"; };
@@ -74,6 +74,8 @@
 		4EDBBCB418DC24520090399D /* KSPagingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSPagingViewController.h; path = KSParallax/KSPagingViewController.h; sourceTree = "<group>"; };
 		4EDBBCB518DC24520090399D /* KSPagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSPagingViewController.m; path = KSParallax/KSPagingViewController.m; sourceTree = "<group>"; };
 		4EDBBCB718DC2ED10090399D /* Daffodils.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Daffodils.jpg; sourceTree = "<group>"; };
+		6B52A04E9E774137A92FCB69 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DCBCFCCF665142ACAB326A7B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				4EDBBC6D18DC05780090399D /* CoreGraphics.framework in Frameworks */,
 				4EDBBC6F18DC05780090399D /* UIKit.framework in Frameworks */,
 				4EDBBC6B18DC05780090399D /* Foundation.framework in Frameworks */,
+				3500D08D405447C6B52C38BC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +110,7 @@
 				4EDBBC8F18DC05780090399D /* ParallaxDemoTests */,
 				4EDBBC6918DC05780090399D /* Frameworks */,
 				4EDBBC6818DC05780090399D /* Products */,
+				6B52A04E9E774137A92FCB69 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,7 @@
 				4EDBBC6C18DC05780090399D /* CoreGraphics.framework */,
 				4EDBBC6E18DC05780090399D /* UIKit.framework */,
 				4EDBBC8918DC05780090399D /* XCTest.framework */,
+				DCBCFCCF665142ACAB326A7B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 		4EDBBC7118DC05780090399D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4E7EBB7318DE7EA2007DF0DD /* Podfile */,
 				4EDBBC7218DC05780090399D /* ParallaxDemo-Info.plist */,
 				4EDBBC7318DC05780090399D /* InfoPlist.strings */,
 				4EDBBC7618DC05780090399D /* main.m */,
@@ -192,8 +198,6 @@
 			children = (
 				4EDBBC9F18DC078A0090399D /* KSFadingScrollView.h */,
 				4EDBBCA018DC078A0090399D /* KSFadingScrollView.m */,
-				4EDBBCA318DC0BE70090399D /* KSParallaxBlurHeaderView.h */,
-				4EDBBCA418DC0BE70090399D /* KSParallaxBlurHeaderView.m */,
 				4EDBBCA918DC13A90090399D /* KSParallaxBlurView.h */,
 				4EDBBCAA18DC13A90090399D /* KSParallaxBlurView.m */,
 			);
@@ -218,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EDBBC9918DC05780090399D /* Build configuration list for PBXNativeTarget "ParallaxDemo" */;
 			buildPhases = (
+				F05128A85DF041469DADAF6E /* Check Pods Manifest.lock */,
 				4EDBBC6318DC05780090399D /* Sources */,
 				4EDBBC6418DC05780090399D /* Frameworks */,
 				4EDBBC6518DC05780090399D /* Resources */,
+				E5A6826C39F94C8FAE32B4CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,6 +299,7 @@
 			files = (
 				4EDBBC8318DC05780090399D /* Images.xcassets in Resources */,
 				4EDBBCB818DC2ED10090399D /* Daffodils.jpg in Resources */,
+				4E7EBB7418DE7EA2007DF0DD /* Podfile in Resources */,
 				4EDBBC7518DC05780090399D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +314,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E5A6826C39F94C8FAE32B4CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F05128A85DF041469DADAF6E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EDBBC6318DC05780090399D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -314,7 +354,6 @@
 			files = (
 				4EDBBCB618DC24520090399D /* KSPagingViewController.m in Sources */,
 				4EDBBCA818DC12990090399D /* UIImage+Blur.m in Sources */,
-				4EDBBCA518DC0BE70090399D /* KSParallaxBlurHeaderView.m in Sources */,
 				4EDBBCB018DC1FE50090399D /* KSParallaxItemViewController.m in Sources */,
 				4EDBBCA118DC078A0090399D /* KSFadingScrollView.m in Sources */,
 				4EDBBC8118DC05780090399D /* KSViewController.m in Sources */,
@@ -395,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -427,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -435,6 +474,7 @@
 		};
 		4EDBBC9A18DC05780090399D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B52A04E9E774137A92FCB69 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -442,13 +482,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParallaxDemo/ParallaxDemo-Prefix.pch";
 				INFOPLIST_FILE = "ParallaxDemo/ParallaxDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		4EDBBC9B18DC05780090399D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B52A04E9E774137A92FCB69 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,7 +499,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParallaxDemo/ParallaxDemo-Prefix.pch";
 				INFOPLIST_FILE = "ParallaxDemo/ParallaxDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FF02AE2E-9A49-45C4-A22D-63661F520A8B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ParallaxDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C4F2EE34-24B5-423A-929D-3BCB218660F8</key>
+		<string>ssh://github.com/mmusallam/KSParallaxBlurScrollView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ParallaxDemo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C4F2EE34-24B5-423A-929D-3BCB218660F8</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/mmusallam/KSParallaxBlurScrollView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C4F2EE34-24B5-423A-929D-3BCB218660F8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C4F2EE34-24B5-423A-929D-3BCB218660F8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ParallaxDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

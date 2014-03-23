@@ -39,6 +39,8 @@
                              forBarMetrics:UIBarMetricsDefault];
     self.navigationController.navigationBar.shadowImage = [UIImage new];
     self.navigationController.navigationBar.translucent = YES;
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(add:)];
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     
     self.controllers = @[
                              [[KSParallaxItemViewController alloc] initWithFlower:[[Flower alloc]init]],
@@ -87,6 +89,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void) add:(id)sender
+{
+    
 }
 
 /// <summary>

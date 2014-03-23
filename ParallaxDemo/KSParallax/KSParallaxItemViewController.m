@@ -33,9 +33,9 @@
     self.scroll.backgroundImage = [UIImage imageNamed:@"Daffodils.jpg"];
     self.scroll.headerTitle = self.flowerItem.title;
     self.scroll.headerSubtitle = self.flowerItem.subtitle;
-    [self.scroll setScrollViewContentSize:CGSizeMake(320, 1020) ]; //TODO: Remove, is debug only.
+    [self.scroll setScrollViewContentSize:CGSizeMake(320, 2000) ]; //TODO: Remove, is debug only.
 
-    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(10, 400, 300, 400)];
+    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(10, 400, 300, 1000)];
     view.backgroundColor = [UIColor colorWithWhite:0.9 alpha:0.8];
     [self.scroll AddItemToScrollView:view];
     [self.view addSubview:self.scroll];
