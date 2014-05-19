@@ -16,6 +16,11 @@
 
 @implementation KSParallaxItemViewController
 
+- (void) setupConstraints
+{
+    
+}
+
 - (id) initWithFlower:(Flower*) flower
 {
     self = [super init];
@@ -24,6 +29,7 @@
     }
     return self;
 }
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -40,6 +46,7 @@
     [self.scroll AddItemToScrollView:view];
     [self.view addSubview:self.scroll];
 
+    [self setupConstraints];
 }
 
 - (void)didReceiveMemoryWarning

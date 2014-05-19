@@ -7,7 +7,6 @@
 //
 
 #import "KSParallaxBlurView.h"
-#import "KSParallaxBlurHeaderView.h"
 #import "KSFadingScrollView.h"
 #import "UIImage+Blur.h"
 
@@ -19,7 +18,7 @@
 @property (strong,nonatomic) UIImageView* backgroundPhotoWithImageEffects;
 @property (strong,nonatomic) UIView* darkerLayer;
 @property (strong,nonatomic) KSFadingScrollView* scrollView;
-@property (strong,nonatomic) KSParallaxBlurHeaderView* header;
+
 
 @end
 
@@ -50,8 +49,6 @@
     self.darkFadeMaxOpacity = 0.2f; // The maximum opacity for the dark background overlay on scrolling.
     self.maxBlurValue = 350.0f; // At which offset the blurred image is fully visible.
     self.defaultScrollOffset = 0; // The offset at which items for the scrollview will be placed.
-    self.headerTitle = @"Main title"; // The main title for the header.
-    self.headerSubtitle = @"Subtitle"; // The subtitle for the header.
     
     // Set up the parallax.
     self.parallaxScrollView = [[UIScrollView alloc] initWithFrame:self.frame];
@@ -97,13 +94,6 @@
     self.backgroundPhotoWithImageEffects.contentMode = UIViewContentModeScaleAspectFill;
     self.backgroundPhotoWithImageEffects.alpha = 0;
     
-    // Create the header.
-    __weak typeof(self)weakself = self;
-    self.header = [[KSParallaxBlurHeaderView alloc] initWithFrame:CGRectMake(0, [[UIApplication sharedApplication] statusBarFrame].size.height, 320, 50)];
-    self.header.tapHandler = ^void(id sender) {
-        [weakself scrollToX:0 Y:0];
-    };
-    
     // Add our items to the view.
     [self.parallaxScrollView addSubview:self.backgroundPhoto];
     [self.parallaxScrollView addSubview:self.backgroundPhotoWithImageEffects];
@@ -115,7 +105,7 @@
     [self addSubview:self.parallaxScrollView];
     [self addSubview:self.darkerLayer];
     [self addSubview:self.scrollView];
-//    [self addSubview:self.header];
+
 }
 
 - (void) tap:(id)sender
@@ -234,24 +224,6 @@
 {
     self.backgroundPhoto.image = image;
     self.backgroundPhotoWithImageEffects.image = [UIImage blur:image];
-}
-
-/// <summary>
-/// The title for the header of the view.
-/// </summary>
-- (void) setHeaderTitle:(NSString *)headerTitle
-{
-    _headerTitle = headerTitle;
-    [self.header setHeaderTitle:headerTitle];
-}
-
-/// <summary>
-/// The subtitle for the header of the view.
-/// </summary>
-- (void) setHeaderSubtitle:(NSString *)headerSubtitle
-{
-    _headerSubtitle = headerSubtitle;
-    [self.header setHeaderSubtitle:headerSubtitle];
 }
 
 - (void)setScrollViewContentSize:(CGSize)size
